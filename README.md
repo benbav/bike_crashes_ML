@@ -5,9 +5,9 @@ The objective of this data science project is to identify the variables that con
 Dataset
 The dataset used for this project was obtained from the City of Chicago public database of traffic accidents, available at https://data.cityofchicago.org/. The dataset consists of reported bike crashes that occurred in Chicago between 2016 and 2023.
 
-Size: [Provide the approximate size or number of records in the dataset]
-Format: [Specify the format of the dataset, such as CSV, JSON, etc.]
-Source: [Include the source URL or any relevant details about the dataset]
+Size: ~10,000 records
+Format: CSV
+Source: https://data.cityofchicago.org/resource/85ca-t3if.csv
 Data Preprocessing and Cleaning
 Prior to analysis, the following preprocessing and cleaning steps were performed on the dataset:
 
@@ -27,6 +27,8 @@ These features are relevant to the project objective as they help identify the f
 
 Exploratory Data Analysis (EDA)
 Exploratory data analysis was conducted on the dataset, revealing the following insights and patterns:
+
+
 
 Time and day show a strong relationship with many of the crashes.
 More deaths are concentrated on the west side of Chicago.
