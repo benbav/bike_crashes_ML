@@ -42,6 +42,8 @@ The performance of the random forest model was assessed using the following eval
 F1 score: The model was optimized to achieve the best F1 score, which balances precision and recall.
 Learning curve: The learning curve was plotted to evaluate the model's training and validation performance.
 ROC curve: The ROC curve was used to assess the model's discriminatory power.
+
+![Alt Text](images/ROC.png)
 Data Split
 The dataset was divided into training and testing sets using an 80/20 split ratio. Due to the heavy imbalance in the dataset (only 10% positive for the target variable), the random forest model incorporated balanced class weights. Additionally, the data split was stratified to include approximately equal amounts of the positive target variable in both the training and testing sets.
 
