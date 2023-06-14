@@ -2,6 +2,10 @@ Chicago Bike Crashes Data Mining / Machine Learning Project
 Objective
 The objective of this data science project is to identify the variables that contribute to the most dangerous bike crashes in Chicago. By analyzing a dataset of reported bike crashes, we aim to uncover insights and patterns that can help improve bike safety measures in the city.
 
+<p align="center">
+  <img width="550" height="300" src="images/feature_importances.png">
+</p>
+
 Dataset
 The dataset used for this project was obtained from the City of Chicago public database of traffic accidents, available at https://data.cityofchicago.org/. The dataset consists of reported bike crashes that occurred in Chicago between 2016 and 2023.
 
@@ -28,11 +32,23 @@ These features are relevant to the project objective as they help identify the f
 Exploratory Data Analysis (EDA)
 Exploratory data analysis was conducted on the dataset, revealing the following insights and patterns:
 
-
-
 Time and day show a strong relationship with many of the crashes.
-More deaths are concentrated on the west side of Chicago.
+
+<p align="center">
+  <img width="550" height="300" src="images/bike_crashes_day_hour.png">
+</p>
+
 A geojson file was downloaded to map out the most frequent bike crash locations and fatalities on an overlaid map of Chicago.
+More deaths are concentrated on the west side of Chicago.
+
+<p align="center">
+  <img width="700" height="800" src="images/chicago_bike_crashes_and_deaths.png">
+</p>
+
+<p align="center">
+  <img width="550" height="300" src="images/bike_crash_street.png">
+</p>
+
 Machine Learning and Statistical Techniques
 For analysis and prediction, a random forest model was trained using the dataset. The most important features from the model were then extracted to answer the leading question about the variables influencing dangerous bike crashes.
 
@@ -43,7 +59,8 @@ F1 score: The model was optimized to achieve the best F1 score, which balances p
 Learning curve: The learning curve was plotted to evaluate the model's training and validation performance.
 ROC curve: The ROC curve was used to assess the model's discriminatory power.
 
-![Alt Text](images/ROC.png)
+<img src="images/ROC.png" alt="Alt Text" width="300">
+
 Data Split
 The dataset was divided into training and testing sets using an 80/20 split ratio. Due to the heavy imbalance in the dataset (only 10% positive for the target variable), the random forest model incorporated balanced class weights. Additionally, the data split was stratified to include approximately equal amounts of the positive target variable in both the training and testing sets.
 
