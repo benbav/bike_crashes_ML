@@ -1,5 +1,7 @@
 Chicago Bike Crashes Data Mining / Machine Learning Project
+
 Objective
+
 The objective of this data science project is to identify the variables that contribute to the most dangerous bike crashes in Chicago. By analyzing a dataset of reported bike crashes, we aim to uncover insights and patterns that can help improve bike safety measures in the city.
 
 <p align="center">
@@ -7,6 +9,7 @@ The objective of this data science project is to identify the variables that con
 </p>
 
 Dataset
+
 The dataset used for this project was obtained from the City of Chicago public database of traffic accidents, available at https://data.cityofchicago.org/. The dataset consists of reported bike crashes that occurred in Chicago between 2016 and 2023.
 
 Size: ~10,000 records
@@ -30,6 +33,7 @@ Time information: The day, hour, and month of the crash.
 These features are relevant to the project objective as they help identify the factors associated with dangerous bike crashes in Chicago.
 
 Exploratory Data Analysis (EDA)
+
 Exploratory data analysis was conducted on the dataset, revealing the following insights and patterns:
 
 Time and day show a strong relationship with many of the crashes.
@@ -50,9 +54,11 @@ More deaths are concentrated on the west side of Chicago.
 </p>
 
 Machine Learning and Statistical Techniques
+
 For analysis and prediction, a random forest model was trained using the dataset. The most important features from the model were then extracted to answer the leading question about the variables influencing dangerous bike crashes.
 
 Evaluation Metrics
+
 The performance of the random forest model was assessed using the following evaluation metrics:
 
 F1 score: The model was optimized to achieve the best F1 score, which balances precision and recall.
@@ -62,12 +68,15 @@ ROC curve: The ROC curve was used to assess the model's discriminatory power.
 <img src="images/ROC.png" alt="Alt Text" width="300">
 
 Data Split
+
 The dataset was divided into training and testing sets using an 80/20 split ratio. Due to the heavy imbalance in the dataset (only 10% positive for the target variable), the random forest model incorporated balanced class weights. Additionally, the data split was stratified to include approximately equal amounts of the positive target variable in both the training and testing sets.
 
 Programming Language and Tools
+
 This data science project was implemented using Python.
 
 Libraries and Packages
+
 The following libraries and packages were utilized in this project:
 
 scikit-learn (sklearn): Used for machine learning algorithms and evaluation metrics.
