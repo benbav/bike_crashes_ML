@@ -70,5 +70,24 @@ The dataset was divided into training and testing sets using an 80/20 split rati
 
 ## Programming Language and Tools
 
-This data science project was implemented
+This data science project was implemented using Python for ETL, Matplotlib and Searborn for data visualizations, and sklearn for the machine learning portion.
+
+## Actionable Insights
+
+###Time and Day Awareness:
+- Increase awareness and safety measures during high-risk time periods and days, as the analysis revealed a strong relationship between these factors and bike crashes.
+###Geographic Focus:
+- Prioritize safety initiatives on the west side of Chicago, where a concentration of bike crash fatalities was observed.
+###Street-specific Safety Measures:
+- Implement targeted safety measures on streets identified as frequent crash locations to reduce the occurrence of dangerous bike crashes.
+###Weather-based Interventions:
+- Consider implementing weather-specific safety protocols, especially during adverse weather conditions, as weather was identified as a key variable affecting bike crash severity.
+###Education and Outreach:
+- Conduct educational campaigns to enhance awareness among cyclists and motorists about safe practices and potential dangers associated with specific streets or conditions.
+###Law Enforcement Presence:
+- Increase law enforcement presence or safety measures in areas identified as high-risk based on the analysis.
+###Continuous Monitoring:
+- Advocate for or invest in infrastructure improvements such as better signage, bike lanes, or traffic calming measures in areas prone to bike crashes.
+###Targeted Training Programs:
+Develop targeted training programs for both cyclists and motorists, focusing on identified risk factors and safe behaviors targeted towards the high risk young male group 
 
